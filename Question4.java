@@ -18,6 +18,18 @@ public class Question4
      */
      
     Scanner in = new Scanner(System.in);
+    int userInt = in.nextInt();
+    int i, n;
     
+    for(i = 1;     // Increments by 1 from 1 to userInt 
+        i <= userInt;
+        i++){
+            for(n = userInt;     // Decrements by 1 from userInt to 1
+                n >= i;
+                n--){
+                    System.out.print("*");
+                }
+            System.out.println("");
+        }
   }
 }
