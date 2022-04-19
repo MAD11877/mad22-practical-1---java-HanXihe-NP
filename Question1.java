@@ -7,6 +7,6 @@ public class Question1
      * System.out.println("Hello World!");
      * Hint: System.out.println(...)
      */
-    System.out.println("Hello World!");
+    System.out.print("Hello World!");
   }
 }
